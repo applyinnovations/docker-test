@@ -1,3 +1,3 @@
 FROM pierrezemb/gostatic
 COPY ./http /srv/http
-ENTRYPOINT ["/goStatic", "-port", "8081"]
+ENTRYPOINT ["/goStatic", "-port", "8082"]
